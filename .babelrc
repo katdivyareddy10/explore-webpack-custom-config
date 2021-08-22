@@ -1,0 +1,20 @@
+// What does babel do? 
+// It compiles latest JS into older versions of JS. It is a JS transpiler.
+// We need it convert our ES6,7,8+, JSX syntax to JS so that older browsers
+// can read our code.
+{
+  // A preset is a set of plugins that supports the particular language features
+  // presets can be given as a string or an array with presetName and options for the preset.
+  // Documentation: https://babeljs.io/docs/en/babel-preset-env
+  "presets": [
+    [
+      // used for transpiling
+      "@babel/preset-env",
+      {
+        //any options for env can be provided here. (like target browser etc)
+      }
+    ],
+    "@babel/preset-react", // for react modules
+    "@babel/preset-typescript" // to support ts files
+  ]
+}

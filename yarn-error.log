@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/Cellar/node@14/14.17.3/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js i webpack
+
+PATH: 
+  /usr/local/opt/node@14/bin:/usr/local/opt/node@14/bin:/usr/local/opt/node@14/bin:/usr/local/opt/mongodb-community/bin:/usr/local/opt/python@3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/node@14/bin:/usr/local/opt/mongodb-community/bin:/usr/local/opt/python@3.7/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/divyakatpally/Desktop/UsefulCode/webpack-how-does-it-work/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
