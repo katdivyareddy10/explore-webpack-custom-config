@@ -2,8 +2,17 @@
   "name": "webpack-how-what-why",
   "version": "1.0.0",
   "description": "Exploring config for webpack",
-  "main": "index.js",
+  "main": "",
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.2.0",
     "sass-loader": "^12.1.0",
@@ -12,7 +21,6 @@
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.0.0"
   },
-  "devDependencies": {},
   "scripts": {
     "build": "webpack --mode development",
     "start": "webpack-dev-server",
